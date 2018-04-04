@@ -1,0 +1,33 @@
+{
+  "warnings": [
+    {
+      "file": "/Users/benny/Repositories/MS/mobile-center-sdk-ios/AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework/Headers/MSAbstractLog.h",
+      "line": 3,
+      "symbol": "MSAbstractLog",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/benny/Repositories/MS/mobile-center-sdk-ios/AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework/Headers/MSAnalyticsTransmissionTarget.h",
+      "line": 5,
+      "symbol": "MSAnalyticsTransmissionTarget",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/benny/Repositories/MS/mobile-center-sdk-ios/AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework/Headers/MSEventLog.h",
+      "line": 5,
+      "symbol": "MSEventLog",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    },
+    {
+      "file": "/Users/benny/Repositories/MS/mobile-center-sdk-ios/AppCenter-SDK-Apple/iOS/AppCenterAnalytics.framework/Headers/MSLogWithProperties.h",
+      "line": 5,
+      "symbol": "MSLogWithProperties",
+      "symbol_kind": "sourcekitten.source.lang.objc.decl.class",
+      "warning": "undocumented"
+    }
+  ],
+  "source_directory": "/Users/benny/Repositories/MS/mobile-center-sdk-ios/AppCenterAnalytics"
+}
