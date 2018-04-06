@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.microsoft.appcenter.AppCenter;
-import com.microsoft.appcenter.distribute.Distribute;
+import com.microsoft.appcenter.push.Push;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -33,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
         AppCenter.setLogLevel(Log.VERBOSE);
-        AppCenter.start(getApplication(), "55efc107-ee0c-40e4-a4e7-e4f283b59b2e", Distribute.class);
+//        Push.setSenderId("{Your Sender ID}");
+        AppCenter.start(getApplication(), "55efc107-ee0c-40e4-a4e7-e4f283b59b2e", Push.class);
 
     }
 }
