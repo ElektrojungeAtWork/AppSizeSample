@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 
 import com.microsoft.appcenter.AppCenter;
-import com.microsoft.appcenter.crashes.Crashes;
+import com.microsoft.appcenter.distribute.Distribute;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -28,12 +28,12 @@ public class MainActivity extends AppCompatActivity {
         crashButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Crashes.generateTestCrash();
+//                Crashes.generateTestCrash();
             }
         });
 
         AppCenter.setLogLevel(Log.VERBOSE);
-        AppCenter.start(getApplication(), "55efc107-ee0c-40e4-a4e7-e4f283b59b2e", Crashes.class);
+        AppCenter.start(getApplication(), "55efc107-ee0c-40e4-a4e7-e4f283b59b2e", Distribute.class);
 
     }
 }
