@@ -14,12 +14,21 @@
 		B2ADFF3A20743472007631DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2ADFF3820743472007631DF /* LaunchScreen.storyboard */; };
 		B2ADFF3D20743472007631DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B2ADFF3C20743472007631DF /* main.m */; };
 		B2ADFF4A207443DF007631DF /* AppCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADFF48207443DF007631DF /* AppCenter.framework */; };
-		B2ADFF5120744D1A007631DF /* AppCenterDistributeResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B2ADFF4E20744D19007631DF /* AppCenterDistributeResources.bundle */; };
-		B2ADFF5320744D1A007631DF /* AppCenterDistribute.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADFF5020744D1A007631DF /* AppCenterDistribute.framework */; };
 		B2ADFF572074538D007631DF /* AppCenterAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADFF542074538C007631DF /* AppCenterAnalytics.framework */; };
-		B2ADFF582074538D007631DF /* AppCenterPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADFF552074538C007631DF /* AppCenterPush.framework */; };
-		B2ADFF592074538D007631DF /* AppCenterCrashes.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2ADFF562074538C007631DF /* AppCenterCrashes.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B2ADFF71207596E2007631DF /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		B2ADFF2A20743472007631DF /* AppSizeSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppSizeSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,11 +42,7 @@
 		B2ADFF3B20743472007631DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2ADFF3C20743472007631DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2ADFF48207443DF007631DF /* AppCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenter.framework; path = iOS/AppCenter.framework; sourceTree = "<group>"; };
-		B2ADFF4E20744D19007631DF /* AppCenterDistributeResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = AppCenterDistributeResources.bundle; path = iOS/AppCenterDistributeResources.bundle; sourceTree = "<group>"; };
-		B2ADFF5020744D1A007631DF /* AppCenterDistribute.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterDistribute.framework; path = iOS/AppCenterDistribute.framework; sourceTree = "<group>"; };
 		B2ADFF542074538C007631DF /* AppCenterAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterAnalytics.framework; path = iOS/AppCenterAnalytics.framework; sourceTree = "<group>"; };
-		B2ADFF552074538C007631DF /* AppCenterPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterPush.framework; path = iOS/AppCenterPush.framework; sourceTree = "<group>"; };
-		B2ADFF562074538C007631DF /* AppCenterCrashes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppCenterCrashes.framework; path = iOS/AppCenterCrashes.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2ADFF4A207443DF007631DF /* AppCenter.framework in Frameworks */,
-				B2ADFF582074538D007631DF /* AppCenterPush.framework in Frameworks */,
 				B2ADFF572074538D007631DF /* AppCenterAnalytics.framework in Frameworks */,
-				B2ADFF5320744D1A007631DF /* AppCenterDistribute.framework in Frameworks */,
-				B2ADFF592074538D007631DF /* AppCenterCrashes.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,10 +64,6 @@
 				B2ADFF2C20743472007631DF /* AppSizeSample */,
 				B2ADFF2B20743472007631DF /* Products */,
 				B2ADFF542074538C007631DF /* AppCenterAnalytics.framework */,
-				B2ADFF562074538C007631DF /* AppCenterCrashes.framework */,
-				B2ADFF552074538C007631DF /* AppCenterPush.framework */,
-				B2ADFF5020744D1A007631DF /* AppCenterDistribute.framework */,
-				B2ADFF4E20744D19007631DF /* AppCenterDistributeResources.bundle */,
 				B2ADFF48207443DF007631DF /* AppCenter.framework */,
 			);
 			sourceTree = "<group>";
@@ -104,6 +102,7 @@
 				B2ADFF2620743472007631DF /* Sources */,
 				B2ADFF2720743472007631DF /* Frameworks */,
 				B2ADFF2820743472007631DF /* Resources */,
+				B2ADFF71207596E2007631DF /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,7 +154,6 @@
 				B2ADFF3A20743472007631DF /* LaunchScreen.storyboard in Resources */,
 				B2ADFF3720743472007631DF /* Assets.xcassets in Resources */,
 				B2ADFF3520743472007631DF /* Main.storyboard in Resources */,
-				B2ADFF5120744D1A007631DF /* AppCenterDistributeResources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,12 +303,15 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = AppSizeSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.AppSizeSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "1dde9b83-4743-4cd4-97af-3b63e07b089d";
@@ -326,12 +327,15 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 5Z97G9NZQ6;
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/iOS",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = AppSizeSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = com.microsoft.AppSizeSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "e3d86a56-98f6-4945-a791-0b894626ef95";

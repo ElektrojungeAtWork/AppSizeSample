@@ -9,7 +9,7 @@
 #import "ViewController.h"
 
 @import AppCenterAnalytics;
-@import AppCenterCrashes;
+//@import AppCenterCrashes;
 
 @interface ViewController ()
 
@@ -37,7 +37,7 @@
 }
 
 - (IBAction)crashMe:(id)sender {
-  [MSCrashes generateTestCrash];
+//  [MSCrashes generateTestCrash];
 }
 
 @end

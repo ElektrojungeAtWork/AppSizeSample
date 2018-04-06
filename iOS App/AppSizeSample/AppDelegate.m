@@ -10,9 +10,9 @@
 
 @import AppCenter;
 @import AppCenterAnalytics;
-@import AppCenterCrashes;
-@import AppCenterDistribute;
-@import AppCenterPush;
+//@import AppCenterCrashes;
+//@import AppCenterDistribute;
+//@import AppCenterPush;
 
 @interface AppDelegate ()
 
@@ -25,7 +25,7 @@
   
   // Override point for customization after application launch.
   
-  [MSAppCenter start:@"a56966d7-8dcc-44e2-a7fc-f35fb6d93387" withServices:@[[MSAnalytics class], [MSCrashes class], [MSDistribute class], [MSPush class]]];
+  [MSAppCenter start:@"a56966d7-8dcc-44e2-a7fc-f35fb6d93387" withServices:@[[MSAnalytics class]]];
   
   return YES;
 }
